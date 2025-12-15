@@ -36,8 +36,8 @@ TROPOMI_groundO3_FNR/
 │  └─ 3.TROPOMI_FNR_O3_Formation_Sensitivity.py
 │
 ├─ DATA/
-│  ├─ SMA_HCHO_NO2_TROPOMI_test
-│  └─ SMA_O3_AirKorea_test
+│  ├─ SMA_HCHO_NO2_TROPOMI_test.csv
+│  └─ SMA_O3_AirKorea_test.csv
 │
 ├─ OUTD/SMA/                                    # 결과 
 │  ├─ GEMS_FNR_Threshold_SMA.txt
@@ -50,6 +50,7 @@ TROPOMI_groundO3_FNR/
 │  ├─ 2.py_out
 │  └─ 3.py_out
 ```
+
 
 
 
