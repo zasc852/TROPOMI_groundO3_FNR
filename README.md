@@ -38,6 +38,7 @@ TROPOMI_groundO3_FNR/
 │  ├─ GEMS_FNR_Threshold_SMA.txt
 │  ├─ TROPOMI_FNR_Threshold_SMA.png
 │  ├─ TROPOMI_FNR_heatmap_SMA.png
-│  ├─ FNR_O3_Formation_Sensitivity_SMA.png
+│  └─ FNR_O3_Formation_Sensitivity_SMA.png
 
 ```
+
