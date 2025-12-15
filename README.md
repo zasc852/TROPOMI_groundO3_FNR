@@ -35,6 +35,8 @@ TROPOMI_groundO3_FNR/
 │  ├─ 2.TROPOMI_FNR_Threshold_Threshold_allyear_heatmap.py
 │  └─ 3.TROPOMI_FNR_O3_Formation_Sensitivity.py
 │
+├─ OUTD/SMA/
+
 ├─ OUTD/SMA/                                    # 결과 
 │  ├─ GEMS_FNR_Threshold_SMA.txt
 │  ├─ TROPOMI_FNR_Threshold_SMA.png
@@ -42,6 +44,7 @@ TROPOMI_groundO3_FNR/
 │  └─ FNR_O3_Formation_Sensitivity_SMA.png
 
 ```
+
 
 
 
