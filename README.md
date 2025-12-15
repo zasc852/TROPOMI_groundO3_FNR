@@ -16,3 +16,28 @@ data 설명
 참고 사항
 SHEL 폴더의 0.path_def.sh의 경우, 자신의 현재 경로로 바꿔야함
 (WORKDIR, PYTHON)
+
+프로젝트 구성
+```text
+TROPOMI_groundO3_FNR/
+├─ README.md
+│
+├─ SHEL/                                   # Shell 실행 스크립트
+│  ├─ 0.path_def.sh                        # 경로 및 환경 변수 정의
+│  ├─ 1.TROPOMI_FNR_Threshold.sh
+│  ├─ 2.TROPOMI_FNR_Threshold_heatmap.sh
+│  ├─ 3.TROPOMI_FNR_O3_Formation_Sensitivity.sh
+│  └─ Total_TROPOMI_FNR.sh                 # 전체 파이프라인 실행 스크립트
+│
+├─ PYTD/                                   # Python code
+│  ├─ 1.TROPOMI_FNR_Threshold_allyear.py
+│  ├─ 2.TROPOMI_FNR_Threshold_Threshold_allyear_heatmap.py
+│  └─ 3.TROPOMI_FNR_O3_Formation_Sensitivity.py
+│
+├─ SMA/                                    # 결과 
+│  ├─ GEMS_FNR_Threshold_SMA.txt
+│  ├─ TROPOMI_FNR_Threshold_SMA.png
+│  ├─ TROPOMI_FNR_heatmap_SMA.png
+│  ├─ FNR_O3_Formation_Sensitivity_SMA.png
+
+```
