@@ -6,16 +6,17 @@ Shell Script와 python 코드로 구성되었음
 
 data 설명
 1. SMA_HCHO_NO2_TROPOMI_test.csv
-: TROPOMI(https://www.earthdata.nasa.gov/)의 HCHO, NO2를 다운받은 후
+: TROPOMI(https://www.earthdata.nasa.gov/) 의 HCHO, NO2를 다운받은 후
 한국 SMA(서울,인천,경기도)에 대해 가공하고 재격자화한 파일
 
 2. SMA_O3_AirKorea_test.csv
-: AirKorea(https://www.airkorea.or.kr/)의 지상 오존을 다운받은 후
+: AirKorea(https://www.airkorea.or.kr/) 의 지상 오존을 다운받은 후
 한국 SMA(서울,인천,경기도)에 대해 가공한 파일
 
 참고 사항
-SHEL 폴더의 0.path_def.sh의 경우, 자신의 현재 경로로 바꿔야함
-(WORKDIR, PYTHON)
+1. SHEL 폴더의 0.path_def.sh의 경우, 자신의 현재 경로로 바꿔야함(WORKDIR, PYTHON)
+2. SHP파일, 폰트는 제공하지 않음 사용자의 편의대로 추가 필요
+
 
 프로젝트 구성
 ```text
@@ -41,5 +42,6 @@ TROPOMI_groundO3_FNR/
 │  └─ FNR_O3_Formation_Sensitivity_SMA.png
 
 ```
+
 
 
