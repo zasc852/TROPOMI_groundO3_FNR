@@ -35,15 +35,22 @@ TROPOMI_groundO3_FNR/
 │  ├─ 2.TROPOMI_FNR_Threshold_Threshold_allyear_heatmap.py
 │  └─ 3.TROPOMI_FNR_O3_Formation_Sensitivity.py
 │
-├─ OUTD/SMA/
-
+├─ DATA/
+│  ├─ SMA_HCHO_NO2_TROPOMI_test
+│  └─ SMA_O3_AirKorea_test
+│
 ├─ OUTD/SMA/                                    # 결과 
 │  ├─ GEMS_FNR_Threshold_SMA.txt
 │  ├─ TROPOMI_FNR_Threshold_SMA.png
 │  ├─ TROPOMI_FNR_heatmap_SMA.png
 │  └─ FNR_O3_Formation_Sensitivity_SMA.png
-
+│
+├─ LOGO/                                    # 결과에 따른 error log 파일
+│  ├─ 1.py_out
+│  ├─ 2.py_out
+│  └─ 3.py_out
 ```
+
 
 
 
