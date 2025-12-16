@@ -7,11 +7,11 @@ TROPOMI, 지상 오존 자료의 전처리과정은 포함되지 않음,
 FNR 임계값 산출과 그에 따른 오존 생성 민감도 영역 산출물에 관한 코드로 구성됨
 
 1. SMA_HCHO_NO2_TROPOMI_test.csv
-: TROPOMI(https://www.earthdata.nasa.gov/) 의 HCHO, NO2를 다운받은 후
+: TROPOMI (https://www.earthdata.nasa.gov/) 의 HCHO, NO2를 다운받은 후
 한국 SMA(서울,인천,경기도)에 대해 가공하고 재격자화한 파일
 
 2. SMA_O3_AirKorea_test.csv
-: AirKorea(https://www.airkorea.or.kr/) 의 지상 오존을 다운받은 후
+: AirKorea (https://www.airkorea.or.kr/) 의 지상 오존을 다운받은 후
 한국 SMA(서울,인천,경기도)에 대해 가공한 파일
 
 # 3. 실행 환경 설정
@@ -64,6 +64,7 @@ FNR 임계치 기반 오존 생성 민감도 영역로 나눈 TROPOMI(HCHO, NO2)
 <img width="689" height="578" alt="FNR_O3_Formation_Sensitivity_SMA" src="https://github.com/user-attachments/assets/abdf5d45-2c29-4677-b150-8f5b6767482f" />
 
 FNR 임계치 기반 오존 생성 민감도 영역 및 지상 오존 농도 공간 분포도 
+
 
 
 
